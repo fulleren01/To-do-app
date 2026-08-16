@@ -24,4 +24,4 @@ form.addEventListener('submit', function(e) {
     // İşlem bittikten sonra inputu temizliyoruz ve odaklıyoruz
     input.value = '';
     input.focus();
-});
+}); //commit
