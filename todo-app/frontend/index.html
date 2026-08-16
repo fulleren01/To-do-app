@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <!-- CSS dosyamızı buraya bağlıyoruz -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>📝 Benim Todo Listem</h2>
+        
+        <!-- Görev Ekleme Formu -->
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="Yeni görev ekle...">
+            <button type="submit">Ekle</button>
+        </form>
+
+        <!-- Görevlerin Listeleneceği Alan -->
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- JavaScript dosyamızı KESİNLİKLE buraya, en alta bağlıyoruz -->
+    <script src="app.js"></script>
+</body>
+</html>
